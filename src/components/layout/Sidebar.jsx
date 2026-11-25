@@ -8,6 +8,7 @@ import {
   Settings,
   LogOut,
   CalendarClock,
+  Sparkles,
 } from "lucide-react";
 import useAuth from "../../hooks/useAuth";
 import SidebarItem from "./SidebarItem";
@@ -27,6 +28,7 @@ const NAV_SECTIONS = [
       { to: "/dsa-stats", icon: Code2, label: "DSA Stats" },
       { to: "/contests", icon: CalendarClock, label: "Contests" },
       { to: "/skills", icon: Wrench, label: "Skills" },
+      { to: "/analyze-jd", icon: Sparkles, label: "Analyze JD" },
     ],
   },
   {

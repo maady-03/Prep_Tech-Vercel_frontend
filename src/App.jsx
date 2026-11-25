@@ -24,6 +24,7 @@ import Contests from "./pages/Contests";
 import Skills from "./pages/Skills";
 import Settings from "./pages/Settings";
 import ProfilePreview from "./pages/ProfilePreview";
+import Analyzer from "./pages/Analyzer";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
                 <Route path="/dsa-stats" element={<DsaStats />} />
                 <Route path="/contests" element={<Contests />} />
                 <Route path="/skills" element={<Skills />} />
+                <Route path="/analyze-jd" element={<Analyzer />} />
                 <Route path="/profile" element={<ProfilePreview />} />
                 <Route path="/settings" element={<Settings />} />
               </Route>
